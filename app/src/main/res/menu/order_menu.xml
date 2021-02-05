@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/print"
+        android:icon="@drawable/ic_baseline_print_24"
+        android:title="@string/print"
+        android:visible="true"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_websearch"
+        android:icon="@drawable/ic_baseline_more_vert_24"
+        android:orderInCategory="3"
+        android:title="@string/preferences"
+        app:showAsAction="always">
+
+        <menu>
+            <item
+                android:id="@+id/download_invoice"
+                android:icon="@drawable/ic_baseline_file_copy_24"
+                android:title="@string/download_invoice"
+                android:visible="true" />
+            <item
+                android:id="@+id/cancel_order"
+                android:icon="@drawable/ic_baseline_cancel_24"
+                android:title="@string/stornieren"
+                android:visible="true" />
+        </menu>
+    </item>
+</menu>

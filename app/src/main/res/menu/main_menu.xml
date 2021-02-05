@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_websearch"
+        android:icon="@drawable/ic_baseline_settings_24"
+        android:orderInCategory="3"
+        app:showAsAction="always"
+        android:title="@string/preferences">
+
+        <menu>
+            <item
+                android:id="@+id/open_settings"
+                android:icon="@drawable/ic_baseline_settings_24"
+                android:title="@string/general"
+                android:visible="true" />
+            <item
+                android:id="@+id/opening_hours"
+                android:icon="@drawable/ic_baseline_access_time_24"
+                android:title="@string/opening_hours"
+                android:visible="true" />
+            <item
+                android:id="@+id/delivery_costs"
+                android:icon="@drawable/ic_baseline_local_shipping_24"
+                android:title="@string/delivery_costs"
+                android:visible="true" />
+            <item
+                android:id="@+id/open_report"
+                android:icon="@drawable/ic_baseline_insights_24"
+                android:title="@string/reports"
+                android:visible="true" />
+            <item
+                android:id="@+id/close_application"
+                android:icon="@drawable/ic_baseline_stop_circle_24"
+                android:title="@string/stop_orderservice"
+                android:visible="true" />
+        </menu>
+    </item>
+</menu>

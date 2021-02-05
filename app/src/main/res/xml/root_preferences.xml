@@ -1,0 +1,115 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="Shop">
+
+        <SwitchPreferenceCompat
+            app:key="closed"
+            app:title="Shop schließen"
+            android:defaultValue="false"/>
+
+        <EditTextPreference
+            android:key="name"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:summary="Der Name Ihres Lieferdienstes"
+            android:title="Name"
+            app:defaultValue="" />
+        <EditTextPreference
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:key="description"
+            android:selectAllOnFocus="true"
+            android:singleLine="false"
+            android:summary="Die Beschreibung Ihres Lieferdienstes"
+            android:title="Beschreibung"
+            app:defaultValue="" />
+
+    </PreferenceCategory>
+    <PreferenceCategory app:title="Kontakt">
+
+        <EditTextPreference
+            android:key="contact_wa"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:summary="WhatsApp-Kontakt für Ihre Kunden"
+            android:title="WhatsApp"
+            app:defaultValue="" />
+        <EditTextPreference
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:key="contact_tel"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:summary="Telefonnummer für Ihre Kunden"
+            android:title="Telefon"
+            app:defaultValue="" />
+        <EditTextPreference
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:key="contact_mail"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:summary="Email-Adresse für Ihre Kunden"
+            android:title="Email"
+            app:defaultValue="" />
+
+    </PreferenceCategory>
+    <PreferenceCategory app:title="Impressum">
+
+        <EditTextPreference
+            android:key="representative"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:summary="Angaben zum vertreter Ihres Lieferdienstes"
+            android:title="Inhaber"
+            app:defaultValue="" />
+        <EditTextPreference
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:key="street"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:summary="Straße Ihres Lieferdienstes"
+            android:title="Straße"
+            app:defaultValue="" />
+        <EditTextPreference
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:key="city"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:summary="Postleitzahl und Stadt Ihres Lieferdienstes"
+            android:title="Postleitzahl Stadt"
+            app:defaultValue="" />
+        <EditTextPreference
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:key="country"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:summary="Land Ihres Lieferdienstes"
+            android:title="Land"
+            app:defaultValue="" />
+        <EditTextPreference
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:key="vat_id"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:summary="Steuernummer Ihres Lieferdienstes"
+            android:title="Steuernummer"
+            app:defaultValue="" />
+        <EditTextPreference
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:key="authority"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:summary="Aufsichtsbehörde Ihres Lieferdienstes"
+            android:title="Aufsichtsbehörde"
+            app:defaultValue="" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

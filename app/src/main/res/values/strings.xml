@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">Bestellungen</string>
+    <string name="tab_text_1">Neu</string>
+    <string name="tab_text_2">Bearbeitet</string>
+    <string name="waiting_for_orders">Wartet auf Bestellungen…</string>
+    <string name="new_orders">Neue Bestellungen</string>
+    <string name="articles">%d Artikel</string>
+    <string name="print">Drucken</string>
+    <string name="tab_text_order">Bestellung</string>
+    <string name="tab_text_positions">Produkte</string>
+
+    <string name="app_intro_skip_button">ÜBERSPRINGEN</string>
+    <string name="app_intro_next_button">WEITER</string>
+    <string name="app_intro_back_button">ZURÜCK</string>
+    <string name="app_intro_done_button">FERTIG</string>
+    <string name="app_intro_image_content_description">Grafik</string>
+    <string name="choose_printer">Drucker auswählen</string>
+    <string name="login">Anmeldung</string>
+    <string name="password">Passwort</string>
+    <string name="email">E-Mail</string>
+    <string name="login_description">Melde dich mit deinen Zugangsdaten an, um die Einrichtung abzuschließen. </string>
+    <string name="connected">Drucker wechseln</string>
+    <string name="as_soon_as_possible">So schnell wie möglich</string>
+    <string name="connect_a_printer">Bitte verbinde zunächst einen Drucker</string>
+    <string name="app_description">Das beste Online-Bestellsystem für deinen Lieferservice. Das folgende Onboarding dient der Installation. Wischen Sie nach Links um fortzufahren. </string>
+    <string name="login_credentials">Bitte gebe deine Anmeldedaten ein. </string>
+    <string name="connect_printer_description">Bitte wählen Sie den Drucker aus, mit dem Sie Ihre Belege ausdrucken möchten.</string>
+    <string name="welcome_message">Herzlich Willkommen bei FoodCart</string>
+    <string name="customer">Kunde</string>
+    <string name="name">Name</string>
+    <string name="address">Adresse</string>
+    <string name="navigation">Navigation</string>
+    <string name="floor">Etage</string>
+    <string name="phone">Telefon</string>
+    <string name="order">Bestellung</string>
+    <string name="order_date">Bestelldatum</string>
+    <string name="order_number">Bestellungsnummer</string>
+    <string name="notes">Anmerkungen</string>
+    <string name="shipping">Lieferung</string>
+    <string name="payment">Zahlung</string>
+    <string name="payment_method">Zahlungsart</string>
+    <string name="subtotal">Zwischensumme</string>
+    <string name="sum">Summe</string>
+    <string name="mail">Email</string>
+    <string name="whatsapp">WhatsApp</string>
+    <string name="stop_orderservice">Beenden</string>
+    <string name="preferences">Einstellungen</string>
+    <string name="opening_hours">Öffnungszeiten</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="title_activity_opening_hour">Öffnungszeiten</string>
+    <string name="title_activity_region">Regionen</string>
+    <string name="title_activity_settings">Einstellungen</string>
+
+
+    <string name="remove">Löschen</string>
+    <string name="add">Hinzufügen</string>
+    <string name="general">Allgemein</string>
+    <string name="delivery_costs">Lieferkosten</string>
+
+
+    <string name="costs_tab_text_1">Postleitzahlen</string>
+    <string name="costs_tab_text_2">Kosten</string>
+    <string name="time_from">Uhrzeit Von</string>
+    <string name="time_to">Uhrzeit Bis</string>
+    <string name="weekday">Wochentag</string>
+    <string name="postcode">Postleitzahl</string>
+    <string name="minimum_in_euro">Mindestbestellwert in Euro</string>
+    <string name="costs_in_euro">Lieferkosten in Euro</string>
+    <string name="example_time_from">12:00</string>
+    <string name="example_time_to">14:00</string>
+    <string name="example_postcode">34119</string>
+    <string name="example_minimum">20</string>
+    <string name="example_costs">1</string>
+    <string name="download_invoice">Rechnung herunterladen</string>
+    <string name="stornieren">Stornieren</string>
+    <string name="refund_delivery">Rückerstattung Lieferung</string>
+    <string name="order_state">Status</string>
+    <string name="reports">Berichte</string>
+
+
+</resources>
